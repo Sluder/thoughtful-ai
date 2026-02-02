@@ -4,10 +4,11 @@
 
 ### Installation
 This is a Vue.js + Vite + TypeScript project.
+Node v24+ is required for this project to run, as well as NPM to install dependencies.
 
 For the large part of my code, please see `\src\views\HomeView.vue`
 
-Create the .env file & set `VITE_APP_OPEN_AI_API_KEY`
+Create the .env file & set `VITE_APP_OPEN_AI_API_KEY` to an OpenAI API key
 Feel free to reach out to me for an API key!
 ```sh
 cp .env.example .env
